@@ -1,0 +1,27 @@
+.startus-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+.startus-bar__columm {
+  width: 33%;
+}
+
+.startus-bar__columm :first-child span {
+  margin-right: 5px;
+}
+.startus-bar__columm:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.startus-bar__columm:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.startus-bar__columm .fa-battery-empty {
+  margin: 0px 3px;
+}
